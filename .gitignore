@@ -1,0 +1,20 @@
+# AgentFiles links and local automation
+AGENTS*.md
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+*-venv/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
