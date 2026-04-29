@@ -1,0 +1,23 @@
+# sos_admin.sh configuration template
+#
+# Copy this file to:
+#   <wafer>/config/user_config/sos_admin.conf
+#
+# It should live beside user_list. The script reads KEY=VALUE lines only; it
+# does not execute this file as shell code.
+
+# Required when sosadmin readcfg cannot infer the server name automatically.
+# Example from your environment may look like: sh05, SH05, or another SOS server
+# alias accepted by "sosadmin readcfg".
+SOS_SERVER_NAME=
+
+# Optional: override automatic sosd.cfg discovery.
+# If unset, sos_admin.sh derives the path from:
+#   /project/Design_Data/<wafer>/work_libs/...
+# to:
+#   /sos_data/*.rep/<wafer>/setup/sosd.cfg
+SOS_CFG=
+
+# Optional: override automatic user_list discovery.
+# If unset, sos_admin.sh derives it from the wafer/config layout when possible.
+SOS_USER_LIST=

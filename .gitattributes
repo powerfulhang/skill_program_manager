@@ -1,6 +1,12 @@
 * text=auto
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
 *.py text eol=lf
+*.il text eol=lf
+*.sh text eol=lf
 *.toml text eol=lf
 *.md text eol=lf
+*.example text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
